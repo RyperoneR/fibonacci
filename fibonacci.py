@@ -56,6 +56,6 @@ print()
 
 datos_memorización = {}
 fib_memo(30, datos_memorización)  
-with open('datos_memo.json', 'w') as archivo_json:
+with open('datos_memomorización.json', 'w') as archivo_json:
     json.dump(datos_memorización, archivo_json)
 print("Datos de Memoización almacenados en 'datos_memo.json'")
